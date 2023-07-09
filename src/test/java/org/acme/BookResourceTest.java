@@ -22,7 +22,7 @@ public class BookResourceTest {
                 .get("/api/books")
                 .then()
                 .statusCode(200)
-                .body("size()", is("4"));
+                .body("size()", is(4));
     }
 
     @Test

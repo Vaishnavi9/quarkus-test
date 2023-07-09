@@ -27,7 +27,7 @@ public class BookResource {
     Logger logger;
 
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.APPLICATION_JSON)
     public List<Book> getAllBooks() {
         logger.info("Returns all books");
         return bookRepository.getAllBooks();
