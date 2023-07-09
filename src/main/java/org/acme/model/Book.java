@@ -6,14 +6,14 @@ public class Book {
     public String title;
     public String author;
     public String genre;
-    public int yearPfPublication;
+    public int yearOfPublication;
 
     public Book(int id, String title, String author, String genre, int yearPfPublication) {
         this.id = id;
         this.title = title;
         this.author = author;
         this.genre = genre;
-        this.yearPfPublication = yearPfPublication;
+        this.yearOfPublication = yearPfPublication;
     }
 
     public int getId() {
@@ -48,11 +48,11 @@ public class Book {
         this.genre = genre;
     }
 
-    public int getYearPfPublication() {
-        return yearPfPublication;
+    public int getYearOfPublication() {
+        return yearOfPublication;
     }
 
-    public void setYearPfPublication(int yearPfPublication) {
-        this.yearPfPublication = yearPfPublication;
+    public void setYearOfPublication(int yearOfPublication) {
+        this.yearOfPublication = yearOfPublication;
     }
 }
